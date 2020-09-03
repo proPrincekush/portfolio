@@ -11,8 +11,17 @@ app.get("/",(req,res)=>{
     res.render("ejs/Home");
 })
 
+app.get("/work",(req,res)=>{
+    res.render("ejs/projects");
+})
 
+app.get("/journey",(req,res)=>{
+    res.render("ejs/education");
+})
 
+app.get("/skill",(req,res)=>{
+    res.render("ejs/skill.ejs")
+})
 
 
 let port = 3000;

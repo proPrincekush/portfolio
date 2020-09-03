@@ -143,11 +143,74 @@ box-shadow: var(--box-shadow);
 }
 /* end about area */
 
+/* general */
+.site-main .area-head{
+    color: rgb(48, 190, 190);
+    /* font-size: 500; */
+    
+}
+.site-main .area-head h1{
+font-weight: 500;
+}
+
+
+
+
+
+
+/*  start project area */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project{
+display: block;
+padding: 2rem;
+margin: 4rem 0rem ;
+}
+
+.site-main .project .project-img{
+    margin: 1rem;
+    width: 40rem;
+    height: 25rem;
+    border-radius: 5px;
+}
+
+
+.site-main #project-1{
+    background: orange;
+}
+
+
+
+/*  end project area */
+
+/* education area start */
+.site-main .edu-area{
+    padding: 2rem 0;
+    background-color: rgb(165, 214, 214);
+}
+
+.site-main .edu-area .journey-card{
+    margin: 4rem 1rem;
+    padding: 2rem;
+}
+
+
+.site-main .edu-area .journey-card img{
+    padding: 0.5rem;
+}
+
+
+/* education area end */
+
 
 /* Start Skill Area */
 
 .site-main .skill-area{
     padding: 7rem 2rem;
+    background: rgb(195, 211, 211);
 }
 
 .site-main > .skill-area .skills{
@@ -178,6 +241,13 @@ box-shadow: var(--box-shadow);
     font-weight: 500;
     color: teal;
 }
+
+.site-main .increasing .project-btn{
+    background: teal; 
+    color: whitesmoke; 
+    font-size: large;
+}
+
 
 /* End Skill Area */
 
