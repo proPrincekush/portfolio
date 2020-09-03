@@ -14,7 +14,7 @@
 }
     
 .header_area .main-menu .navbar{
-padding: 1rem 5rem;
+padding: 0.5rem 5rem;
 }
 
 
@@ -26,6 +26,7 @@ padding: 1rem 5rem;
 .header_area .main-menu .nav-link{
     padding: 1.7rem;
     font-weight: 600;
+    letter-spacing: 0.1rem;
     font-family: var(--ubuntu) ;
     color:var(--title-color);
 }
@@ -179,9 +180,48 @@ margin: 4rem 0rem ;
 
 
 .site-main #project-1{
+    background: #f5ba13;
+}
+
+.site-main #project-1 .card-footer .btn{
+    background: #f5ba13;
+}
+
+.site-main #project-2{
+    background: violet;
+}
+
+.site-main #project-2 .card-footer .btn{
+    background: violet;
+   
+}
+
+.site-main #project-3{
+    background: teal;
+}
+
+.site-main #project-3 .card-footer .btn{
+    background: teal;
+   
+}
+
+.site-main #project-4{
+    background: #ff5252;;
+}
+
+.site-main #project-4 .card-footer .btn{
+    background: #ff5252;;
+    
+}
+
+.site-main #project-5{
     background: orange;
 }
 
+.site-main #project-5 .card-footer .btn{
+    background: orange;
+    /* color: #ff5252; */
+}
 
 
 /*  end project area */
@@ -202,6 +242,14 @@ margin: 4rem 0rem ;
     padding: 0.5rem;
 }
 
+.site-main .edu-area .journey-card .topic-title{
+    font-weight: 500;
+    color: teal;
+}
+
+.site-main .edu-area .journey-card .card-title{
+    color: teal;
+}
 
 /* education area end */
 
