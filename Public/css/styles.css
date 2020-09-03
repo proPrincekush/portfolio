@@ -1,0 +1,309 @@
+
+/* import variable file */
+@import url("./partialy/_variable.css");
+
+/* import global styling file */
+@import url("./partialy/_globals.css");
+
+
+/* header style start */
+
+.header_area .main-menu .navbar navbar-brand{
+    padding: 0 2rem 0 5rem;
+    
+}
+    
+.header_area .main-menu .navbar{
+padding: 1rem 5rem;
+}
+
+
+.myLogo{
+    width: 4rem;
+    height: 4rem;
+}
+
+.header_area .main-menu .nav-link{
+    padding: 1.7rem;
+    font-weight: 600;
+    font-family: var(--ubuntu) ;
+    color:var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+
+}
+
+
+
+/* header style end */
+
+/* banner area start */
+.site-main .site-banner{
+    /* background: url(../img/banner/cartographer.png) no-repeat; */
+    background-color: #effaf7 ;
+    height: 700px;
+    padding-top: 10rem;
+}
+
+.site-main .site-banner .site-title {
+padding: 8%;
+font-weight: 500;
+
+}
+
+.site-main .site-banner .site-title h3::after {
+content: "";
+width: 18vw;
+height:2px;
+background-color: black;
+display: inline-block;
+margin-left: 5%;
+transform: translateY(-10px);
+
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 4rem;
+    
+}
+
+.title{
+    color: var(--title-color);
+}
+
+
+
+
+
+.button{
+    padding: 0.8rem 2.2rem;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 5%;
+    font:normal 500 16px/20px var(--ubuntu);
+   
+}
+
+.primary-button{
+background: var(--gradient-color);
+color:whitesmoke;
+border-color: var(--gradient-color);
+/* background-clip: padding-box; */
+transition: background.6s ease;
+box-shadow: var(--box-shadow);
+}
+
+.primary-button:hover{
+    background: whitesmoke;
+    /* background-clip: padding-box; */
+    border-color: #44bea4;
+    color: black;
+}
+
+.secondary-button{
+    background: whitesmoke;
+    color:black;
+    border-color: #44bea4;
+    /* background-clip: padding-box; */
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+ }
+    
+.secondary-button:hover{
+        background: var(--gradient-color);
+        /* background-clip: padding-box; */
+        color: whitesmoke;
+ }
+/* banner area start */
+
+
+/* start about area */
+
+.site-main .about-area{
+    padding: 7rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display:block;
+    font-size: 49px;
+    
+}
+/* end about area */
+
+
+/* Start Skill Area */
+
+.site-main .skill-area{
+    padding: 7rem 2rem;
+}
+
+.site-main > .skill-area .skills{
+
+    background-color: rgba(248, 253, 252, 0.97);
+    padding: 2rem 0;
+    transition: box-shadow .7s ease;
+    margin: 1rem 0rem;
+}
+.site-main > .skill-area .skills .skill-img{
+
+    width: 63px;
+    height: 69px;
+    
+}
+
+.site-main > .skill-area .skills:hover{
+
+    box-shadow: var(--box-shadow);
+
+}
+
+.site-main .increasing{
+    margin: 1rem auto;  
+}
+.site-main .increasing .inc{
+    font-size: 30px;
+    font-weight: 500;
+    color: teal;
+}
+
+/* End Skill Area */
+
+/* start project area */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+}
+ .site-main .project-area  .grid > .project-item .my-project{
+   background: rgba(248, 253, 252, 0.97);
+    margin-bottom: 2rem;
+    padding: 0.8rem; 
+    border-radius: 2%; 
+}  
+
+.site-main .project-area  .grid  .project-item .my-project .title > h4{ 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.site-main .project-area  .grid > .my-project .img img{
+    width:370px;
+    height:325px;
+    border-radius: 25%;
+}
+
+.site-main .project-area  .grid  .my-project  .tools{
+    font-size: 20px;
+    font-weight: 500;
+    color: teal;
+}
+
+/* end project area */
+
+
+
+/* start client Area */
+
+.site-main .client-area .about-title{
+    padding: 1rem 7rem;
+}
+
+.site-main .client-area .client{
+    background-color: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 1rem;
+}
+
+.site-main .client-area .client-img{
+    padding: 2rem;
+}
+.site-main .client-area .about-client{
+    padding-top: 1rem;
+}
+
+/* End client Area */
+
+/* Start Subscribe area */
+
+.site-main .subscribe-area .subscribe{ 
+background: url(../img/subscribe-bg.png) no-repeat;
+padding: 10rem 0rem;
+margin: 3rem auto;
+}
+
+.site-main .subscribe-area .subscribe .subscribe-title{
+    font-weight: 700px;
+    font-size: 16px;
+    color: whitesmoke;
+    margin: 1rem 2rem ;
+}
+
+.site-main .subscribe-area .subscribe form .input-textbox input{
+    width:300px;
+    padding: 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.site-main .subscribe-area .subscribe form .input-textbox input::placeholder{
+  color: whitesmoke;
+}
+
+
+.site-main .subscribe-area .subscribe form .btn-submit button{
+    background-color: white;
+    color: black;
+   /* padding: .7rem 2rem; */
+}
+/* End subscribe area */
+
+/* start footer area */
+
+footer.footer-area{
+    padding: 5rem 0rem;
+    background-color: rgb(228, 245, 245);
+}
+footer.footer-area .social h5{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px; 
+}
+
+footer.footer-area .social a > i{
+
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 2rem;
+    color: rgb(21, 136, 136);
+}
+
+
+footer.footer-area .social a > i:hover{
+    color: var(--primary-color);
+}
+/* end footer area */
+
